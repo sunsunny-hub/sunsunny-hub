@@ -22,7 +22,7 @@
 
 <br />
 
-[<img align="left" alt="AWS" width="100px" src="https://img.shields.io/badge/Red%20Hat-EE0000?style=for-the-badge&logo=redhat&logoColor=white" />][RHCSA] Redhat Certified System Administrator
+[<img align="left" alt="AWS" width="80px" src="https://img.shields.io/badge/Red%20Hat-EE0000?style=for-the-badge&logo=redhat&logoColor=white" />][RHCSA] Redhat Certified System Administrator
 
 <br />
 
