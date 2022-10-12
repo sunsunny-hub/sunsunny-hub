@@ -12,7 +12,7 @@
 
 [<img align="left" alt="AWS" width="70px" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />][LINKEDIN]
 
-<br />
+<br /><br />
 
 ### :label: Certifications:
 
