@@ -10,7 +10,7 @@
 
 ### :label: Certifications:
 
-[<img align="left" alt="AWS" width="100px" src="https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" />][AWS] AWS Solution Architect - Associate
+[<img align="left" alt="AWS" width="130px" src="https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" />][AWS] AWS Solution Architect - Associate
 
 <br />
 
@@ -22,7 +22,7 @@
 
 <br />
 
-[<img align="left" alt="AWS" width="80px" src="https://img.shields.io/badge/Red%20Hat-EE0000?style=for-the-badge&logo=redhat&logoColor=white" />][RHCSA] Redhat Certified System Administrator
+[<img align="left" alt="AWS" width="110px" src="https://img.shields.io/badge/Red%20Hat-EE0000?style=for-the-badge&logo=redhat&logoColor=white" />][RHCSA] Redhat Certified System Administrator
 
 <br />
 
