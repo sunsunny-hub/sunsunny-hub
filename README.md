@@ -42,8 +42,6 @@
 <!-- BLOG-POST-LIST:START -->
 - [Getting Started with Matillion ETL Tool](https://dev.to/sunsunnyhub/getting-started-with-matillion-etl-tool-36g4)
 - [Transform Your Data with Azure Data Factory](https://dev.to/sunsunnyhub/transform-your-data-with-azure-data-factory-3h0o)
-- [Transform Your Data with Azure Data Factory](https://sunsbeelog.blogspot.com/2022/07/transform-your-data-with-azure-data.html)
-- [Getting Started with Matillion ETL Tool](https://sunsbeelog.blogspot.com/2022/07/getting-started-with-matillion-etl-tool.html)
 <!-- BLOG-POST-LIST:END -->
 
 <br />
