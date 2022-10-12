@@ -10,12 +10,13 @@
 
 ### :label: Certifications:
 
-[<img align="left" alt="AWS" width="40px" src="https://cdn.jsdelivr.net/npm/simple-icons@7.15.0/icons/amazonaws.svg" />][AWS]
+[<img align="left" alt="AWS" width="40px" src="https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" />][AWS]
+
+[<img align="left" alt="AWS" width="40px" src="https://img.shields.io/badge/microsoft%20azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white" />][AZURE]
 
 <br />
-<br />
-<br />
-<br />
+
+
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs?username=zluvsand&layout=compact&show_icons=true&theme=dark"/>
 
@@ -26,3 +27,4 @@
 
 
 [AWS]: https://www.credly.com/badges/78a1103c-ecf2-4a6c-9932-565bf2b6591e/public_url
+[AZURE]: https://www.credly.com/badges/53d13878-236f-4242-af6d-ac20752cdc84/public_url
