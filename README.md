@@ -8,7 +8,7 @@
 - 🌱 I’m currently learning everything :rofl:
 - 👯 I’m looking to collaborate with other content creators.
 
-- :label: Certifications:
+### :label: Certifications:
 <br />
 
 [<img align="left" alt="AWS" width="40px" src="https://cdn.jsdelivr.net/npm/simple-icons@7.15.0/icons/amazonaws.svg" />][AWS]
