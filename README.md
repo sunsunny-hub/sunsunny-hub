@@ -34,12 +34,9 @@
 
 
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=zluvsand&layout=compact&show_icons=true&theme=dark"/>
+<img width="70px" src="https://github-readme-stats.vercel.app/api/top-langs?username=zluvsand&layout=compact&show_icons=true&theme=dark"/>
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=sunsunny-hub&theme=highcontrast&hide_border=true)](https://git.io/streak-stats)
-
-
-[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=31z7743rniagoafbzn6ku5u2i3wm&cover_image=true&theme=default&show_offline=false&bar_color_cover=true)](https://github.com/kittinan/spotify-github-profile)
 
 
 [AWS]: https://www.credly.com/badges/78a1103c-ecf2-4a6c-9932-565bf2b6591e/public_url
