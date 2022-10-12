@@ -10,9 +10,11 @@
 
 ### :label: Certifications:
 
-[<img align="left" alt="AWS" width="100px" src="https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" />][AWS]
+[<img align="left" alt="AWS" width="100px" src="https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" />][AWS] AWS Solution Architect - Associate
 
-[<img align="left" alt="AWS" width="100px" src="https://img.shields.io/badge/microsoft%20azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white" />][AZURE]
+<br />
+
+[<img align="left" alt="AWS" width="100px" src="https://img.shields.io/badge/microsoft%20azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white" />][AZURE] Azure Administrator - Associate
 
 <br />
 
