@@ -11,6 +11,9 @@
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=sunsunny-hub&theme=highcontrast&hide_border=true)](https://git.io/streak-stats)
 
+
+[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=31z7743rniagoafbzn6ku5u2i3wm&cover_image=true&theme=default&show_offline=false&bar_color_cover=true)](https://github.com/kittinan/spotify-github-profile)
+
 <!--
 **sunsunny-hub/sunsunny-hub** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
