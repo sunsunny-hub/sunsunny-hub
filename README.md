@@ -1,5 +1,10 @@
 <h1 align='center'> Hi there 👋, I'm Suraj :sun_with_face: </h1>
 
+<br />
+<br />
+
+<img align='center' src="https://media.giphy.com/media/RbDKaczqWovIugyJmW/giphy.gif" />
+
 
 - 💬 Ask me about AWS, Azure, Terraform, Python, Devops Tools
 - 🔭 I’m currently working on POC's (Terraform,Ansible,Cloud Devops)
