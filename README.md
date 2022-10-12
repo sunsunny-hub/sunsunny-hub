@@ -1,6 +1,10 @@
 ### Hi there 👋, I'm Suraj :sun_with_face:
 
 
+- 💬 Ask me about AWS, Azure, Terraform, Python, Devops Tools
+- 📫 How to reach me: www.linkedin.com/in/suraj-singh-thakur-0a6836100
+
+
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=sunsunny-hub&theme=highcontrast&hide_border=true)](https://git.io/streak-stats)
 
 <!--
