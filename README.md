@@ -8,6 +8,8 @@
 - 🌱 I’m currently learning everything :rofl:
 - 👯 I’m looking to collaborate with other content creators.
 
+<img src="{https://images.credly.com/size/340x340/images/336eebfc-0ac3-4553-9a67-b402f491f185/azure-administrator-associate-600x600.png}" />
+
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs?username=zluvsand&layout=compact&show_icons=true&theme=dark"/>
 
