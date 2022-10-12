@@ -18,6 +18,14 @@
 
 <br />
 
+[<img align="left" alt="AWS" width="120px" src="https://img.shields.io/badge/microsoft%20azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white" />][AZURE1] Azure Fundamentals
+
+<br />
+
+[<img align="left" alt="AWS" width="100px" src="https://img.shields.io/badge/Red%20Hat-EE0000?style=for-the-badge&logo=redhat&logoColor=white" />][RHCSA] Redhat Certified System Administrator
+
+<br />
+
 
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs?username=zluvsand&layout=compact&show_icons=true&theme=dark"/>
@@ -30,3 +38,5 @@
 
 [AWS]: https://www.credly.com/badges/78a1103c-ecf2-4a6c-9932-565bf2b6591e/public_url
 [AZURE]: https://www.credly.com/badges/53d13878-236f-4242-af6d-ac20752cdc84/public_url
+[AZURE1]: https://www.credly.com/badges/07ecd1e8-5da8-42a5-bd01-9d7e5a608da2/public_url
+[RHCSA]: https://rhtapps.redhat.com/verify?certId=170-199-541
