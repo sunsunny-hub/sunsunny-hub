@@ -16,24 +16,24 @@
 
 ### :label: Certifications:
 
-[<img align="left" alt="AWS" width="130px" src="https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" />][AWS] AWS Solution Architect - Associate
+[<img align="left" alt="AWS-CSA" width="130px" src="https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" />][AWS] AWS Solution Architect - Associate
 
 <br />
 
-[<img align="left" alt="AWS" width="150px" src="https://img.shields.io/badge/microsoft%20azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white" />][AZURE] Azure Administrator - Associate
+[<img align="left" alt="AZ104" width="150px" src="https://img.shields.io/badge/microsoft%20azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white" />][AZURE] Azure Administrator - Associate
 
 <br />
 
-[<img align="left" alt="AWS" width="150px" src="https://img.shields.io/badge/microsoft%20azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white" />][AZURE1] Azure Fundamentals
+[<img align="left" alt="AZ900" width="150px" src="https://img.shields.io/badge/microsoft%20azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white" />][AZURE1] Azure Fundamentals
 
 <br />
 
-[<img align="left" alt="AWS" width="110px" src="https://img.shields.io/badge/Red%20Hat-EE0000?style=for-the-badge&logo=redhat&logoColor=white" />][RHCSA] Redhat Certified System Administrator
+[<img align="left" alt="Redhat" width="110px" src="https://img.shields.io/badge/Red%20Hat-EE0000?style=for-the-badge&logo=redhat&logoColor=white" />][RHCSA] Redhat Certified System Administrator
 
 <br />
 
 
-<img width="495px" hight="100px" src="https://github-readme-stats.vercel.app/api/top-langs?username=zluvsand&layout=compact&show_icons=true&theme=dark"/>
+<img width="495px" hight="50px" src="https://github-readme-stats.vercel.app/api/top-langs?username=zluvsand&layout=compact&show_icons=true&theme=dark"/>
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=sunsunny-hub&theme=highcontrast&hide_border=true)](https://git.io/streak-stats)
 
