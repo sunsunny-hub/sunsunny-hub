@@ -33,7 +33,7 @@
 <br />
 
 
-### :memo:
+### :memo: My Blog Posts:
 
 
 <img width="495px" hight="50px" src="https://github-readme-stats.vercel.app/api/top-langs?username=zluvsand&layout=compact&show_icons=true&theme=dark"/>
