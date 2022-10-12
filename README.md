@@ -5,7 +5,7 @@
 <p align="center">
 <img alt="GIF" src="https://media.giphy.com/media/RbDKaczqWovIugyJmW/giphy.gif" />
 </p>
-
+<br />
 - 💬 Ask me about AWS, Azure, Terraform, Python, Devops Tools
 - 🔭 I’m currently working on POC's (Terraform,Ansible,Cloud Devops)
 - 🌱 I’m currently learning everything :rofl:
