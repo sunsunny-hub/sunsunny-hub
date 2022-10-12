@@ -8,9 +8,9 @@
 
 ### Connect with me:
 
-[<img align="left" alt="AWS" width="130px" src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />]
+[<img align="left" alt="AWS" width="70px" src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />][TWITTER]
 
-[<img align="left" alt="AWS" width="130px" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />]
+[<img align="left" alt="AWS" width="70px" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />][LINKEDIN]
 
 ### :label: Certifications:
 
@@ -44,3 +44,5 @@
 [AZURE]: https://www.credly.com/badges/53d13878-236f-4242-af6d-ac20752cdc84/public_url
 [AZURE1]: https://www.credly.com/badges/07ecd1e8-5da8-42a5-bd01-9d7e5a608da2/public_url
 [RHCSA]: https://rhtapps.redhat.com/verify?certId=170-199-541
+[TWITTER]: https://twitter.com/SurajSingh__
+[LINKEDIN]: www.linkedin.com/in/suraj-singh-thakur-0a6836100
