@@ -12,6 +12,8 @@
 
 [<img align="left" alt="AWS" width="70px" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />][LINKEDIN]
 
+<br />
+
 ### :label: Certifications:
 
 [<img align="left" alt="AWS" width="130px" src="https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" />][AWS] AWS Solution Architect - Associate
