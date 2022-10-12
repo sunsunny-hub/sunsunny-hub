@@ -9,12 +9,11 @@
 - 👯 I’m looking to collaborate with other content creators.
 
 ### :label: Certifications:
-<br />
 
 [<img align="left" alt="AWS" width="40px" src="https://cdn.jsdelivr.net/npm/simple-icons@7.15.0/icons/amazonaws.svg" />][AWS]
 
 <br />
-
+<br />
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs?username=zluvsand&layout=compact&show_icons=true&theme=dark"/>
 
