@@ -1,4 +1,4 @@
-### Hi there 👋, I'm Suraj :sun_with_face:
+<h1 align='center'> Hi there 👋, I'm Suraj :sun_with_face: </h1>
 
 
 - 💬 Ask me about AWS, Azure, Terraform, Python, Devops Tools
