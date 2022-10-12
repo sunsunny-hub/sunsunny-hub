@@ -11,7 +11,7 @@
 <br />
 <br />
 
-[<img align="left" alt="AWS" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@7.15.0/icons/amazonaws.svg" />][AWS]
+[<img align="left" alt="AWS" width="40px" src="https://cdn.jsdelivr.net/npm/simple-icons@7.15.0/icons/amazonaws.svg" />][AWS]
 
 <br />
 <br />
