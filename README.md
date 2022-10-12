@@ -3,7 +3,7 @@
 <br />
 <br />
 
-<img class="center" src="https://media.giphy.com/media/RbDKaczqWovIugyJmW/giphy.gif" />
+<img class="center" alt="GIF" src="https://media.giphy.com/media/RbDKaczqWovIugyJmW/giphy.gif" />
 
 
 - 💬 Ask me about AWS, Azure, Terraform, Python, Devops Tools
