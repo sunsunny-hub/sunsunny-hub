@@ -9,6 +9,8 @@
 - 👯 I’m looking to collaborate with other content creators.
 
 
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=zluvsand&layout=compact"/>
+
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=sunsunny-hub&theme=highcontrast&hide_border=true)](https://git.io/streak-stats)
 
 
