@@ -8,7 +8,7 @@
 - 🌱 I’m currently learning everything :rofl:
 - 👯 I’m looking to collaborate with other content creators.
 
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+[<img align="left" alt="AWS" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@7.15.0/icons/amazonaws.svg" />][AWS]
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs?username=zluvsand&layout=compact&show_icons=true&theme=dark"/>
 
@@ -17,15 +17,5 @@
 
 [![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=31z7743rniagoafbzn6ku5u2i3wm&cover_image=true&theme=default&show_offline=false&bar_color_cover=true)](https://github.com/kittinan/spotify-github-profile)
 
-<!--
-**sunsunny-hub/sunsunny-hub** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
-
-
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+[AWS]: https://www.credly.com/badges/78a1103c-ecf2-4a6c-9932-565bf2b6591e/public_url
