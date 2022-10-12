@@ -8,8 +8,6 @@
 - 🌱 I’m currently learning everything :rofl:
 - 👯 I’m looking to collaborate with other content creators.
 
-[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=31z7743rniagoafbzn6ku5u2i3wm&cover_image=true&theme=default&show_offline=false)](https://github.com/kittinan/spotify-github-profile)
-
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=sunsunny-hub&theme=highcontrast&hide_border=true)](https://git.io/streak-stats)
 
