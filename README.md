@@ -8,9 +8,9 @@
 
 <br />
 
-- 💬 Ask me about AWS, Azure, Terraform, Python, Devops Tools
-- 🔭 I’m currently working on POC's (Terraform,Ansible,Cloud Devops)
-- 🌱 I’m currently learning everything :rofl:
+- 💬 Ask me about AWS, Azure, Terraform, Python, Devops Tools.
+- 🔭 I’m currently practicing on IaC deployement on major cloud provider using terraform.
+- 🌱 I’m currently learning everything. :rofl:
 - 👯 I’m looking to collaborate with other content creators.
 
 ### Connect with me:
