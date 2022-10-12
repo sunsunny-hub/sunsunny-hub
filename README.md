@@ -14,7 +14,7 @@
 
 <br />
 
-[<img align="left" alt="AWS" width="100px" src="https://img.shields.io/badge/microsoft%20azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white" />][AZURE] Azure Administrator - Associate
+[<img align="left" alt="AWS" width="120px" src="https://img.shields.io/badge/microsoft%20azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white" />][AZURE] Azure Administrator - Associate
 
 <br />
 
