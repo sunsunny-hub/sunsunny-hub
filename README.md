@@ -8,7 +8,7 @@
 - 🌱 I’m currently learning everything :rofl:
 - 👯 I’m looking to collaborate with other content creators.
 
-<img src="{https://images.credly.com/size/340x340/images/336eebfc-0ac3-4553-9a67-b402f491f185/azure-administrator-associate-600x600.png}" />
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="78a1103c-ecf2-4a6c-9932-565bf2b6591e" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs?username=zluvsand&layout=compact&show_icons=true&theme=dark"/>
