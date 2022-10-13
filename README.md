@@ -52,6 +52,7 @@
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=sunsunny-hub&theme=highcontrast&hide_border=true)](https://git.io/streak-stats)
 
+![Snake animation](https://github.com/sunsunny-hub/sunsunny-hub/blob/output/github-contribution-grid-snake.svg)
 
 [AWS]: https://www.credly.com/badges/78a1103c-ecf2-4a6c-9932-565bf2b6591e/public_url
 [AZURE]: https://www.credly.com/badges/53d13878-236f-4242-af6d-ac20752cdc84/public_url
