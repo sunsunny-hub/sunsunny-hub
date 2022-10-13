@@ -1,6 +1,6 @@
 <h1 align='center'> Hi there 👋, I'm Suraj :sun_with_face: </h1>
 
-### I am a DevOps Cloud Engineer <img src="https://media.giphy.com/media/NytMLKyiaIh6VH9SPm/giphy.gif" width="30"> from India. :india: <br /> I have a total IT Professional experience of 5+ years in the field of Azure and AWS Cloud, Containerization K8's, CI/CD Pipeline using DevOps tools and Cloud DevOps.
+### I am a DevOps Cloud Engineer <img src="https://media.giphy.com/media/NytMLKyiaIh6VH9SPm/giphy.gif" width="30"> from India. :india: <br /> I have a total IT Professional experience of 5+ years in the field of Azure and AWS Cloud, Containerization K8's, CI/CD Pipeline using DevOps tools and Cloud DevOps. :electron:
 <br />
 <p align="center">
 <img alt="GIF" width="800px" height="250px" src="https://media.giphy.com/media/RbDKaczqWovIugyJmW/giphy.gif" />
