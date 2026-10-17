@@ -1,22 +1,34 @@
 <div align="center">
 
-  <!-- Interactive Terminal Neofetch with Suraj's ASCII Face (Inspired by Andrew6Grant / awesome-github-profile-readme) -->
-  <a href="https://suraj-singh-thakur.netlify.app/">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./dark_mode.svg">
-      <source media="(prefers-color-scheme: light)" srcset="./light_mode.svg">
-      <img alt="Suraj Singh Thakur Terminal Profile" src="./dark_mode.svg" width="100%">
-    </picture>
-  </a>
-
-  <br /><br />
+  <!-- Responsive Profile Card: AI 3D Avatar + Terminal Neofetch Specs -->
+  <table>
+    <tr>
+      <td width="240" align="center" valign="middle">
+        <a href="https://suraj-singh-thakur.netlify.app/">
+          <img src="./assets/avatar.jpg" width="220" alt="Suraj Singh Thakur - DevOps Engineer" style="border-radius: 18px;" />
+        </a>
+      </td>
+      <td valign="top">
+        <h3>⚡ Suraj Singh Thakur</h3>
+        <p><b>Senior DevOps &amp; Cloud Platform Engineer</b> @ <a href="https://www.perficient.com/">Perficient Inc</a></p>
+        <p>
+          📍 <b>Location:</b> Nagpur, India 🇮🇳<br />
+          ⏳ <b>Experience:</b> 5+ Years in Multi-Cloud &amp; Automation<br />
+          ☁️ <b>Cloud Platforms:</b> AWS &bull; Microsoft Azure &bull; Google Cloud (GCP)<br />
+          🛠️ <b>Core Stack:</b> Kubernetes &bull; Docker &bull; Terraform &bull; Ansible &bull; Jenkins &bull; Python<br />
+          🏆 <b>Certifications:</b> 6 Global Credentials (AWS, GCP, Azure, Red Hat)<br />
+          🚀 <b>Mission:</b> Architecting zero-downtime, secure &amp; automated cloud ecosystems.
+        </p>
+      </td>
+    </tr>
+  </table>
 
   <!-- Direct Portals & Action Buttons -->
   <p align="center">
     <a href="https://suraj-singh-thakur.netlify.app/"><img src="https://img.shields.io/badge/🌐_Live_Portfolio-0F172A?style=for-the-badge&logoColor=white" alt="Live Portfolio" /></a>
     <a href="https://github.com/sunsunny-hub?tab=repositories"><img src="https://img.shields.io/badge/🐙_Featured_Projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repos" /></a>
     <a href="https://www.linkedin.com/in/suraj-singh-thakur-0a6836100/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-    <a href="mailto:surajsingh5233@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+    <a href="https://blogs.perficient.com/author/surajthakur/"><img src="https://img.shields.io/badge/Perficient_Blogs-E31837?style=for-the-badge&logo=blogger&logoColor=white" alt="Perficient Blogs" /></a>
     <a href="https://drive.google.com/file/d/12Ztb_acOKf_slRDkL023qwlaAQzc2xz_/view?usp=drive_link"><img src="https://img.shields.io/badge/📄_Resume-4285F4?style=for-the-badge&logo=google-drive&logoColor=white" alt="Resume" /></a>
   </p>
 
@@ -30,20 +42,37 @@
 
 | Cloud / Platform | Credential Name | Verification Link |
 | :---: | :--- | :---: |
-| <img src="https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazon-aws&logoColor=white" /> | **AWS Certified Solutions Architect – Associate** | [Verify on Credly ↗](https://www.credly.com/badges/78a1103c-ecf2-4a6c-9932-565bf2b6591e/public_url) |
-| <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white" /> | **Google Cloud Certified: Associate Cloud Engineer** | [Verify on Accredible ↗](https://www.credential.net/131745c8-6602-4aff-bfe0-a07f0e6d0003) |
-| <img src="https://img.shields.io/badge/Microsoft_Azure-0089D6?style=flat-square&logo=microsoft-azure&logoColor=white" /> | **Microsoft Certified: Azure Security Engineer Associate (AZ-500)** | [Verify on MS Learn ↗](https://learn.microsoft.com/api/credentials/share/en-us/surajsingh-5992/5A930C5769F8C404?sharingId=442D4838F487B16A) |
-| <img src="https://img.shields.io/badge/Microsoft_Azure-0089D6?style=flat-square&logo=microsoft-azure&logoColor=white" /> | **Microsoft Certified: Azure Administrator Associate (AZ-104)** | [Verify on Credly ↗](https://www.credly.com/badges/53d13878-236f-4242-af6d-ac20752cdc84/public_url) |
-| <img src="https://img.shields.io/badge/Microsoft_Azure-0089D6?style=flat-square&logo=microsoft-azure&logoColor=white" /> | **Microsoft Certified: Azure Fundamentals (AZ-900)** | [Verify on Credly ↗](https://www.credly.com/badges/07ecd1e8-5da8-42a5-bd01-9d7e5a608da2/public_url) |
-| <img src="https://img.shields.io/badge/Red_Hat-EE0000?style=flat-square&logo=red-hat&logoColor=white" /> | **Red Hat Certified System Administrator (RHCSA)** | [Verify on Red Hat ↗](https://rhtapps.redhat.com/verify?certId=170-199-541) |
+| <img src="https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazon-aws&logoColor=white" alt="AWS" /> | **AWS Certified Solutions Architect – Associate** | [Verify on Credly ↗](https://www.credly.com/badges/78a1103c-ecf2-4a6c-9932-565bf2b6591e/public_url) |
+| <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white" alt="GCP" /> | **Google Cloud Certified: Associate Cloud Engineer** | [Verify on Accredible ↗](https://www.credential.net/131745c8-6602-4aff-bfe0-a07f0e6d0003) |
+| <img src="https://img.shields.io/badge/Microsoft_Azure-0089D6?style=flat-square&logo=microsoft-azure&logoColor=white" alt="Azure" /> | **Microsoft Certified: Azure Security Engineer Associate (AZ-500)** | [Verify on MS Learn ↗](https://learn.microsoft.com/api/credentials/share/en-us/surajsingh-5992/5A930C5769F8C404?sharingId=442D4838F487B16A) |
+| <img src="https://img.shields.io/badge/Microsoft_Azure-0089D6?style=flat-square&logo=microsoft-azure&logoColor=white" alt="Azure" /> | **Microsoft Certified: Azure Administrator Associate (AZ-104)** | [Verify on Credly ↗](https://www.credly.com/badges/53d13878-236f-4242-af6d-ac20752cdc84/public_url) |
+| <img src="https://img.shields.io/badge/Microsoft_Azure-0089D6?style=flat-square&logo=microsoft-azure&logoColor=white" alt="Azure" /> | **Microsoft Certified: Azure Fundamentals (AZ-900)** | [Verify on Credly ↗](https://www.credly.com/badges/07ecd1e8-5da8-42a5-bd01-9d7e5a608da2/public_url) |
+| <img src="https://img.shields.io/badge/Red_Hat-EE0000?style=flat-square&logo=red-hat&logoColor=white" alt="Red Hat" /> | **Red Hat Certified System Administrator (RHCSA)** | [Verify on Red Hat ↗](https://rhtapps.redhat.com/verify?certId=170-199-541) |
 
-> 📌 *For in-depth case studies on enterprise cloud migrations (Qualcomm, RK Holdings), architecture diagrams, and work experience, visit [**suraj-singh-thakur.netlify.app**](https://suraj-singh-thakur.netlify.app/).*
+> 📌 *For full case studies, architecture diagrams, and client project deliverables (Qualcomm, RK Holdings, Leadiant), visit [**suraj-singh-thakur.netlify.app**](https://suraj-singh-thakur.netlify.app/).*
 
 </div>
 
 ---
 
-### 📊 GitHub Activity & Metrics
+### 📝 Latest Technical Publications
+
+<!-- BLOG-POST-LIST:START -->
+- [Azure IoT Operations: Empowering the Future of Connectivity and Automation](https://blogs.perficient.com/2025/05/27/azure-iot-operations-empowering-the-future-of-connectivity-and-automation/)
+- [Revolutionizing OpenAI Chatbot UI Deployment with DevSecOps](https://blogs.perficient.com/2024/07/05/revolutionizing-openai-chatbot-ui-deployment-with-devsecops/)
+- [Ultimate Guide to Setting Up Jenkins Server with DevSecOps Tools on AWS EC2](https://blogs.perficient.com/2024/07/02/ultimate-guide-to-setting-up-jenkins-server-with-devsecops-tools-on-aws-ec2/)
+- [Deploying Azure Infrastructure With Terraform Using Azure DevOps Pipelines](https://blogs.perficient.com/2023/07/13/deploying-azure-infrastructure-with-terraform-using-azure-devops-pipelines/)
+- [Getting Started with Matillion ETL Tool](https://blogs.perficient.com/2022/05/24/getting-started-with-matillion-etl-tool/)
+- [Transform Your Data with Azure Data Factory](https://blogs.perficient.com/2021/12/08/azure-data-factory-overview/)
+<!-- BLOG-POST-LIST:END -->
+
+<p align="center">
+  <a href="https://blogs.perficient.com/author/surajthakur/"><b>Read more engineering articles on my Perficient Author Profile ↗</b></a>
+</p>
+
+---
+
+### 📊 GitHub Activity & Contribution Graph
 
 <div align="center">
   <table>
@@ -58,21 +87,5 @@
   </table>
 
   <!-- Contribution Grid Snake Animation -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sunsunny-hub/sunsunny-hub/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sunsunny-hub/sunsunny-hub/output/github-contribution-grid-snake.svg">
-    <img alt="Contribution Grid Snake" src="https://raw.githubusercontent.com/sunsunny-hub/sunsunny-hub/output/github-contribution-grid-snake.svg" width="100%">
-  </picture>
+  <img src="https://raw.githubusercontent.com/sunsunny-hub/sunsunny-hub/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" width="100%" />
 </div>
-
----
-
-### 📝 Latest Technical Publications
-<!-- BLOG-POST-LIST:START -->
-- [Getting Started with Matillion ETL Tool](https://dev.to/sunsunnyhub/getting-started-with-matillion-etl-tool-36g4)
-- [Transform Your Data with Azure Data Factory](https://dev.to/sunsunnyhub/transform-your-data-with-azure-data-factory-3h0o)
-<!-- BLOG-POST-LIST:END -->
-
-<p align="center">
-  <a href="https://blogs.perficient.com/author/sthakur/">Read more engineering deep-dives on Perficient Blogs ↗</a>
-</p>
