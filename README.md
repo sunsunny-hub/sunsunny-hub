@@ -58,12 +58,10 @@
 ### 📝 Latest Technical Publications
 
 <!-- BLOG-POST-LIST:START -->
-- [Azure IoT Operations: Empowering the Future of Connectivity and Automation](https://blogs.perficient.com/2025/05/27/azure-iot-operations-empowering-the-future-of-connectivity-and-automation/)
-- [Revolutionizing OpenAI Chatbot UI Deployment with DevSecOps](https://blogs.perficient.com/2024/07/05/revolutionizing-openai-chatbot-ui-deployment-with-devsecops/)
-- [Ultimate Guide to Setting Up Jenkins Server with DevSecOps Tools on AWS EC2](https://blogs.perficient.com/2024/07/02/ultimate-guide-to-setting-up-jenkins-server-with-devsecops-tools-on-aws-ec2/)
-- [Deploying Azure Infrastructure With Terraform Using Azure DevOps Pipelines](https://blogs.perficient.com/2023/07/13/deploying-azure-infrastructure-with-terraform-using-azure-devops-pipelines/)
-- [Getting Started with Matillion ETL Tool](https://blogs.perficient.com/2022/05/24/getting-started-with-matillion-etl-tool/)
-- [Transform Your Data with Azure Data Factory](https://blogs.perficient.com/2021/12/08/azure-data-factory-overview/)
+- [Shift-Left Infrastructure Compliance Automation](https://blogs.perficient.com/shift-left-infrastructure-compliance-automation/)
+- [Azure IoT Operations: Empowering the Future of Connectivity and Automation](https://blogs.perficient.com/azure-iot-operations-empowering-the-future-of-connectivity-and-automation/)
+- [Getting Started with Matillion ETL Tool](https://dev.to/sunsunnyhub/getting-started-with-matillion-etl-tool-36g4)
+- [Transform Your Data with Azure Data Factory](https://dev.to/sunsunnyhub/transform-your-data-with-azure-data-factory-3h0o)
 <!-- BLOG-POST-LIST:END -->
 
 <p align="center">
