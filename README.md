@@ -4,7 +4,7 @@
   <table>
     <tr>
       <td width="240" align="center" valign="middle">
-        <a href="https://suraj-singh-thakur.netlify.app/">
+        <a href="https://iam-surajsinghthakur.netlify.app/">
           <img src="./assets/avatar.jpg" width="220" alt="Suraj Singh Thakur - DevOps Engineer" style="border-radius: 18px;" />
         </a>
       </td>
@@ -25,7 +25,7 @@
 
   <!-- Direct Portals & Action Buttons -->
   <p align="center">
-    <a href="https://suraj-singh-thakur.netlify.app/"><img src="https://img.shields.io/badge/🌐_Live_Portfolio-0F172A?style=for-the-badge&logoColor=white" alt="Live Portfolio" /></a>
+    <a href="https://iam-surajsinghthakur.netlify.app/"><img src="https://img.shields.io/badge/🌐_Live_Portfolio-0F172A?style=for-the-badge&logoColor=white" alt="Live Portfolio" /></a>
     <a href="https://github.com/sunsunny-hub?tab=repositories"><img src="https://img.shields.io/badge/🐙_Featured_Projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repos" /></a>
     <a href="https://www.linkedin.com/in/suraj-singh-thakur-0a6836100/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
     <a href="https://blogs.perficient.com/author/surajthakur/"><img src="https://img.shields.io/badge/Perficient_Blogs-E31837?style=for-the-badge&logo=blogger&logoColor=white" alt="Perficient Blogs" /></a>
@@ -49,7 +49,7 @@
 | <img src="https://img.shields.io/badge/Microsoft_Azure-0089D6?style=flat-square&logo=microsoft-azure&logoColor=white" alt="Azure" /> | **Microsoft Certified: Azure Fundamentals (AZ-900)** | [Verify on Credly ↗](https://www.credly.com/badges/07ecd1e8-5da8-42a5-bd01-9d7e5a608da2/public_url) |
 | <img src="https://img.shields.io/badge/Red_Hat-EE0000?style=flat-square&logo=red-hat&logoColor=white" alt="Red Hat" /> | **Red Hat Certified System Administrator (RHCSA)** | [Verify on Red Hat ↗](https://rhtapps.redhat.com/verify?certId=170-199-541) |
 
-> 📌 *For full case studies, architecture diagrams, and client project deliverables (Qualcomm, RK Holdings, Leadiant), visit [**suraj-singh-thakur.netlify.app**](https://suraj-singh-thakur.netlify.app/).*
+> 📌 *For full case studies, architecture diagrams, and client project deliverables (Qualcomm, RK Holdings, Leadiant), visit [**iam-surajsinghthakur.netlify.app**](https://iam-surajsinghthakur.netlify.app/).*
 
 </div>
 
