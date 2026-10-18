@@ -1,5 +1,10 @@
 <div align="center">
 
+  <!-- Dynamic Animated Tech Savvy Headline -->
+  <a href="https://iam-surajsinghthakur.netlify.app/">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=38BDF8&center=true&vCenter=true&width=700&lines=Senior+DevOps+%26+Cloud+Platform+Engineer;Multi-Cloud+Architect+%7C+AWS+%E2%80%A2+Azure+%E2%80%A2+GCP;Kubernetes+%E2%80%A2+Terraform+%E2%80%A2+Docker+%E2%80%A2+GitOps;6x+Certified+Cloud+%26+Infrastructure+Specialist;Architecting+Zero-Downtime+Automated+Ecosystems" alt="DevOps Typing Header" />
+  </a>
+
   <!-- Responsive Profile Card: AI 3D Avatar + Terminal Neofetch Specs -->
   <table>
     <tr>
@@ -31,6 +36,14 @@
     <a href="https://blogs.perficient.com/author/surajthakur/"><img src="https://img.shields.io/badge/Perficient_Blogs-E31837?style=for-the-badge&logo=blogger&logoColor=white" alt="Perficient Blogs" /></a>
     <a href="https://drive.google.com/file/d/12Ztb_acOKf_slRDkL023qwlaAQzc2xz_/view?usp=drive_link"><img src="https://img.shields.io/badge/📄_Resume-4285F4?style=for-the-badge&logo=google-drive&logoColor=white" alt="Resume" /></a>
   </p>
+
+  <!-- Live DevOps Cloud Console & Telemetry Animation -->
+  <img src="./assets/devops-terminal.svg" width="100%" alt="Suraj Singh Thakur - DevOps Cloud Terminal" />
+
+  <br /><br />
+
+  <!-- Live CI/CD Automation Pipeline Animation -->
+  <img src="./assets/devops-pipeline.svg" width="100%" alt="DevOps CI/CD Automation Pipeline" />
 
 </div>
 

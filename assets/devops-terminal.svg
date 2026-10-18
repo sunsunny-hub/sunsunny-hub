@@ -1,0 +1,250 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 395" width="100%" height="100%" fill="none">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="terminalBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F19" />
+      <stop offset="50%" stop-color="#0E1626" />
+      <stop offset="100%" stop-color="#070A10" />
+    </linearGradient>
+
+    <linearGradient id="headerBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#141E33" />
+      <stop offset="100%" stop-color="#0E1626" />
+    </linearGradient>
+
+    <linearGradient id="accentCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+
+    <linearGradient id="podAws" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF9900" />
+      <stop offset="100%" stop-color="#FFB84D" />
+    </linearGradient>
+
+    <linearGradient id="podAzure" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0089D6" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+
+    <linearGradient id="podGcp" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4285F4" />
+      <stop offset="100%" stop-color="#34A853" />
+    </linearGradient>
+
+    <!-- Border Glow Filter -->
+    <filter id="borderGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#38BDF8" flood-opacity="0.15" />
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#38BDF8" flood-opacity="0.25" />
+    </filter>
+
+    <filter id="neonPulse" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&amp;display=swap');
+
+    .term-text {
+      font-family: 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+      font-size: 13px;
+      letter-spacing: -0.15px;
+    }
+
+    /* Live Health Pulse */
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.85); }
+    }
+    .status-dot {
+      animation: pulseGlow 2.5s ease-in-out infinite;
+      transform-origin: 683px 28px;
+    }
+
+    /* Caret Blinking */
+    @keyframes blinkCursor {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    .blinking-cursor {
+      animation: blinkCursor 0.85s infinite;
+    }
+
+    /* Total loop duration: 16s */
+    /* Keyframes for seamless looping cascade */
+    @keyframes seq1 { 0% { opacity: 0; } 1.5% { opacity: 1; } 95% { opacity: 1; } 98% { opacity: 0; } 100% { opacity: 0; } }
+    @keyframes seq2 { 0%, 6% { opacity: 0; } 8% { opacity: 1; } 95% { opacity: 1; } 98% { opacity: 0; } 100% { opacity: 0; } }
+    @keyframes seq3 { 0%, 14% { opacity: 0; } 16% { opacity: 1; } 95% { opacity: 1; } 98% { opacity: 0; } 100% { opacity: 0; } }
+    @keyframes seq4 { 0%, 20% { opacity: 0; } 22% { opacity: 1; } 95% { opacity: 1; } 98% { opacity: 0; } 100% { opacity: 0; } }
+    @keyframes seq5 { 0%, 25% { opacity: 0; } 27% { opacity: 1; } 95% { opacity: 1; } 98% { opacity: 0; } 100% { opacity: 0; } }
+    @keyframes seq6 { 0%, 30% { opacity: 0; } 32% { opacity: 1; } 95% { opacity: 1; } 98% { opacity: 0; } 100% { opacity: 0; } }
+    @keyframes seq7 { 0%, 35% { opacity: 0; } 37% { opacity: 1; } 95% { opacity: 1; } 98% { opacity: 0; } 100% { opacity: 0; } }
+    @keyframes seq8 { 0%, 43% { opacity: 0; } 45% { opacity: 1; } 95% { opacity: 1; } 98% { opacity: 0; } 100% { opacity: 0; } }
+    @keyframes seq9 { 0%, 50% { opacity: 0; } 52% { opacity: 1; } 95% { opacity: 1; } 98% { opacity: 0; } 100% { opacity: 0; } }
+    @keyframes seq10 { 0%, 58% { opacity: 0; } 60% { opacity: 1; } 95% { opacity: 1; } 98% { opacity: 0; } 100% { opacity: 0; } }
+
+    .step-1 { animation: seq1 16s infinite; }
+    .step-2 { animation: seq2 16s infinite; }
+    .step-3 { animation: seq3 16s infinite; }
+    .step-4 { animation: seq4 16s infinite; }
+    .step-5 { animation: seq5 16s infinite; }
+    .step-6 { animation: seq6 16s infinite; }
+    .step-7 { animation: seq7 16s infinite; }
+    .step-8 { animation: seq8 16s infinite; }
+    .step-9 { animation: seq9 16s infinite; }
+    .step-10 { animation: seq10 16s infinite; }
+  </style>
+
+  <!-- Outer Window Frame -->
+  <rect x="10" y="10" width="860" height="375" rx="14" fill="url(#terminalBg)" stroke="#1E293B" stroke-width="1.5" filter="url(#borderGlow)" />
+  <rect x="10" y="10" width="860" height="375" rx="14" fill="none" stroke="url(#accentCyan)" stroke-width="1" stroke-opacity="0.3" />
+
+  <!-- Terminal Header Bar -->
+  <path d="M 10 24 C 10 16.268 16.268 10 24 10 L 856 10 C 863.732 10 870 16.268 870 24 L 870 46 L 10 46 Z" fill="url(#headerBg)" />
+  <line x1="10" y1="46" x2="870" y2="46" stroke="#1E293B" stroke-width="1" />
+
+  <!-- Mac Window Controls -->
+  <circle cx="34" cy="28" r="6" fill="#EF4444" />
+  <circle cx="54" cy="28" r="6" fill="#F59E0B" />
+  <circle cx="74" cy="28" r="6" fill="#10B981" />
+
+  <!-- Header Title -->
+  <g class="term-text" fill="#94A3B8" font-size="12" font-weight="500">
+    <text x="105" y="32">⚡ suraj@cloud-orchestrator: ~ (prod-us-east-1 // k8s-mesh)</text>
+  </g>
+
+  <!-- Live Health Monitor Pill -->
+  <g class="term-text">
+    <rect x="670" y="18" width="186" height="20" rx="10" fill="#062419" stroke="#059669" stroke-width="1" stroke-opacity="0.6" />
+    <circle class="status-dot" cx="683" cy="28" r="4" fill="#34D399" filter="url(#neonPulse)" />
+    <text x="695" y="32" fill="#34D399" font-size="10.5" font-weight="600" letter-spacing="0.4">SYSTEM: NOMINAL [99.99%]</text>
+  </g>
+
+  <!-- Terminal Content Body -->
+  <g class="term-text" transform="translate(32, 75)">
+
+    <!-- Line 1: Command 1 -->
+    <g class="step-1">
+      <text x="0" y="0">
+        <tspan fill="#38BDF8" font-weight="700">suraj@cloud</tspan>
+        <tspan fill="#64748B">:</tspan>
+        <tspan fill="#A78BFA" font-weight="600">~</tspan>
+        <tspan fill="#E2E8F0"> ❯ </tspan>
+        <tspan fill="#FACC15" font-weight="600">devops</tspan>
+        <tspan fill="#E2E8F0"> --profile --credentials</tspan>
+      </text>
+    </g>
+
+    <!-- Line 2: Output 1 -->
+    <g class="step-2">
+      <text x="14" y="24">
+        <tspan fill="#64748B">│ </tspan>
+        <tspan fill="#94A3B8">ROLE:</tspan>
+        <tspan fill="#F8FAFC" font-weight="600"> Senior DevOps &amp; Cloud Platform Engineer </tspan>
+        <tspan fill="#38BDF8">[@Perficient Inc]</tspan>
+      </text>
+      <text x="14" y="44">
+        <tspan fill="#64748B">│ </tspan>
+        <tspan fill="#94A3B8">CERTS:</tspan>
+        <tspan fill="#34D399" font-weight="600"> 6x Certified </tspan>
+        <tspan fill="#94A3B8">(AWS SAA • Azure AZ-500/104/900 • GCP ACE • Red Hat RHCSA)</tspan>
+      </text>
+    </g>
+
+    <!-- Line 3: Command 2 -->
+    <g class="step-3">
+      <text x="0" y="80">
+        <tspan fill="#38BDF8" font-weight="700">suraj@cloud</tspan>
+        <tspan fill="#64748B">:</tspan>
+        <tspan fill="#A78BFA" font-weight="600">~</tspan>
+        <tspan fill="#E2E8F0"> ❯ </tspan>
+        <tspan fill="#FACC15" font-weight="600">kubectl</tspan>
+        <tspan fill="#E2E8F0"> get pods -n multi-cloud-fleet</tspan>
+      </text>
+    </g>
+
+    <!-- Line 4: Kubernetes Pod Output Header -->
+    <g class="step-4">
+      <text x="14" y="104" fill="#64748B" font-size="12">
+        <tspan x="14">POD NAME</tspan>
+        <tspan x="290">CLUSTER</tspan>
+        <tspan x="450">STATUS</tspan>
+        <tspan x="570">RESTARTS</tspan>
+        <tspan x="680">AGE</tspan>
+      </text>
+    </g>
+
+    <!-- Line 5: Kubernetes Pod 1 (AWS) -->
+    <g class="step-5">
+      <text x="14" y="126" font-size="12.5">
+        <tspan x="14" fill="#F8FAFC">aws-mesh-gateway-7f8d-x9</tspan>
+        <tspan x="290" fill="#FF9900" font-weight="600">EKS (us-east-1)</tspan>
+        <tspan x="450" fill="#34D399" font-weight="600">● Running</tspan>
+        <tspan x="570" fill="#94A3B8">0</tspan>
+        <tspan x="680" fill="#94A3B8">42d 18h</tspan>
+      </text>
+    </g>
+
+    <!-- Line 6: Kubernetes Pod 2 (Azure) -->
+    <g class="step-6">
+      <text x="14" y="146" font-size="12.5">
+        <tspan x="14" fill="#F8FAFC">azure-sentinel-vault-3a1b</tspan>
+        <tspan x="290" fill="#0089D6" font-weight="600">AKS (central-us)</tspan>
+        <tspan x="450" fill="#34D399" font-weight="600">● Running</tspan>
+        <tspan x="570" fill="#94A3B8">0</tspan>
+        <tspan x="680" fill="#94A3B8">19d 04h</tspan>
+      </text>
+    </g>
+
+    <!-- Line 7: Kubernetes Pod 3 (GCP) -->
+    <g class="step-7">
+      <text x="14" y="166" font-size="12.5">
+        <tspan x="14" fill="#F8FAFC">gcp-dataproc-stream-9c44</tspan>
+        <tspan x="290" fill="#4285F4" font-weight="600">GKE (asia-south1)</tspan>
+        <tspan x="450" fill="#34D399" font-weight="600">● Running</tspan>
+        <tspan x="570" fill="#94A3B8">0</tspan>
+        <tspan x="680" fill="#94A3B8">11d 12h</tspan>
+      </text>
+    </g>
+
+    <!-- Line 8: Command 3 - Terraform & GitOps -->
+    <g class="step-8">
+      <text x="0" y="206">
+        <tspan fill="#38BDF8" font-weight="700">suraj@cloud</tspan>
+        <tspan fill="#64748B">:</tspan>
+        <tspan fill="#A78BFA" font-weight="600">~</tspan>
+        <tspan fill="#E2E8F0"> ❯ </tspan>
+        <tspan fill="#FACC15" font-weight="600">terraform</tspan>
+        <tspan fill="#E2E8F0"> apply --auto-approve &amp;&amp; </tspan>
+        <tspan fill="#FACC15" font-weight="600">gitops</tspan>
+        <tspan fill="#E2E8F0"> sync</tspan>
+      </text>
+    </g>
+
+    <!-- Line 9: Output 3 - Terraform Result -->
+    <g class="step-9">
+      <text x="14" y="230">
+        <tspan fill="#64748B">│ </tspan>
+        <tspan fill="#34D399" font-weight="600">Apply complete!</tspan>
+        <tspan fill="#E2E8F0"> Resources: 18 added, 0 changed, 0 destroyed. </tspan>
+        <tspan fill="#A78BFA">[Zero-Downtime Verified 🚀]</tspan>
+      </text>
+    </g>
+
+    <!-- Line 10: Active Terminal Prompt & Blinking Cursor -->
+    <g class="step-10">
+      <text x="0" y="266">
+        <tspan fill="#38BDF8" font-weight="700">suraj@cloud</tspan>
+        <tspan fill="#64748B">:</tspan>
+        <tspan fill="#A78BFA" font-weight="600">~</tspan>
+        <tspan fill="#E2E8F0"> ❯ </tspan>
+        <tspan fill="#38BDF8">ready --for-next-challenge</tspan>
+      </text>
+      <!-- Correctly positioned cursor after ready command -->
+      <rect class="blinking-cursor" x="352" y="253" width="9" height="16" fill="#38BDF8" rx="1.5" />
+    </g>
+
+  </g>
+</svg>

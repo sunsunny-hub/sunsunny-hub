@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 160" width="100%" height="100%" fill="none">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="pipelineBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080C14" />
+      <stop offset="50%" stop-color="#0E1626" />
+      <stop offset="100%" stop-color="#070A10" />
+    </linearGradient>
+
+    <!-- Node Card Gradient -->
+    <linearGradient id="nodeBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#141E33" />
+      <stop offset="100%" stop-color="#0C1322" />
+    </linearGradient>
+
+    <!-- Connector Flow Gradient -->
+    <linearGradient id="wireGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="50%" stop-color="#00F0FF" />
+      <stop offset="100%" stop-color="#34D399" />
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="cardGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#38BDF8" flood-opacity="0.1" />
+    </filter>
+
+    <filter id="neonGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&amp;display=swap');
+
+    .pipe-font {
+      font-family: 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    }
+
+    /* Dashed arrow line flow */
+    @keyframes dashFlow {
+      from { stroke-dashoffset: 24; }
+      to { stroke-dashoffset: 0; }
+    }
+    .flow-dash {
+      stroke-dasharray: 4 3;
+      animation: dashFlow 1s linear infinite;
+    }
+
+    /* Chevron pulses in sequence: 1 -> 2 -> 3 -> 4 -> 5 */
+    @keyframes arrowPulse {
+      0%, 100% { fill: #334155; opacity: 0.6; }
+      50% { fill: #38BDF8; opacity: 1; filter: drop-shadow(0 0 4px #00F0FF); }
+    }
+    .arr-1 { animation: arrowPulse 2s infinite ease-in-out; }
+    .arr-2 { animation: arrowPulse 2s infinite ease-in-out 0.4s; }
+    .arr-3 { animation: arrowPulse 2s infinite ease-in-out 0.8s; }
+    .arr-4 { animation: arrowPulse 2s infinite ease-in-out 1.2s; }
+    .arr-5 { animation: arrowPulse 2s infinite ease-in-out 1.6s; }
+
+    /* Live Badge Glow */
+    @keyframes badgeGlow {
+      0%, 100% { opacity: 0.85; filter: drop-shadow(0 0 1px rgba(52, 211, 153, 0.4)); }
+      50% { opacity: 1; filter: drop-shadow(0 0 5px rgba(52, 211, 153, 0.9)); }
+    }
+    .status-badge {
+      animation: badgeGlow 2.2s ease-in-out infinite;
+    }
+
+    @keyframes liveDot {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+    .live-dot {
+      animation: liveDot 1.8s infinite;
+    }
+  </style>
+
+  <!-- Container Box -->
+  <rect x="5" y="5" width="870" height="150" rx="12" fill="url(#pipelineBg)" stroke="#1E293B" stroke-width="1.2" />
+
+  <!-- Title Sub-bar -->
+  <g class="pipe-font" transform="translate(20, 24)">
+    <text x="0" y="0" fill="#38BDF8" font-size="11" font-weight="700" letter-spacing="0.8">⚡ CI/CD AUTOMATION PIPELINE // CONTINUOUS DEPLOYMENT</text>
+    <circle class="live-dot" cx="720" cy="-3.5" r="3.5" fill="#34D399" filter="url(#neonGlow)" />
+    <text x="730" y="0" fill="#34D399" font-size="10" font-weight="600" letter-spacing="0.4">ZERO-DOWNTIME GITOPS</text>
+  </g>
+
+  <!-- ================= CONNECTORS BETWEEN CARDS ================= -->
+  <!-- Connector 1 (Between 1 and 2: x=132 to 165) -->
+  <g transform="translate(132, 85)">
+    <line x1="0" y1="0" x2="22" y2="0" stroke="#334155" stroke-width="2" />
+    <line class="flow-dash" x1="0" y1="0" x2="22" y2="0" stroke="url(#wireGrad)" stroke-width="2" />
+    <polygon class="arr-1" points="24,-4 32,0 24,4" fill="#38BDF8" />
+  </g>
+
+  <!-- Connector 2 (Between 2 and 3: x=277 to 310) -->
+  <g transform="translate(277, 85)">
+    <line x1="0" y1="0" x2="22" y2="0" stroke="#334155" stroke-width="2" />
+    <line class="flow-dash" x1="0" y1="0" x2="22" y2="0" stroke="url(#wireGrad)" stroke-width="2" />
+    <polygon class="arr-2" points="24,-4 32,0 24,4" fill="#38BDF8" />
+  </g>
+
+  <!-- Connector 3 (Between 3 and 4: x=422 to 455) -->
+  <g transform="translate(422, 85)">
+    <line x1="0" y1="0" x2="22" y2="0" stroke="#334155" stroke-width="2" />
+    <line class="flow-dash" x1="0" y1="0" x2="22" y2="0" stroke="url(#wireGrad)" stroke-width="2" />
+    <polygon class="arr-3" points="24,-4 32,0 24,4" fill="#38BDF8" />
+  </g>
+
+  <!-- Connector 4 (Between 4 and 5: x=567 to 600) -->
+  <g transform="translate(567, 85)">
+    <line x1="0" y1="0" x2="22" y2="0" stroke="#334155" stroke-width="2" />
+    <line class="flow-dash" x1="0" y1="0" x2="22" y2="0" stroke="url(#wireGrad)" stroke-width="2" />
+    <polygon class="arr-4" points="24,-4 32,0 24,4" fill="#38BDF8" />
+  </g>
+
+  <!-- Connector 5 (Between 5 and 6: x=712 to 745) -->
+  <g transform="translate(712, 85)">
+    <line x1="0" y1="0" x2="22" y2="0" stroke="#334155" stroke-width="2" />
+    <line class="flow-dash" x1="0" y1="0" x2="22" y2="0" stroke="url(#wireGrad)" stroke-width="2" />
+    <polygon class="arr-5" points="24,-4 32,0 24,4" fill="#38BDF8" />
+  </g>
+
+  <!-- ================= STAGE 1: CODE ================= -->
+  <g transform="translate(20, 42)">
+    <rect width="112" height="88" rx="8" fill="url(#nodeBg)" stroke="#1E293B" stroke-width="1.2" filter="url(#cardGlow)" />
+    <rect x="0" y="0" width="112" height="3" rx="1.5" fill="#38BDF8" />
+    <text class="pipe-font" x="56" y="22" fill="#94A3B8" font-size="9.5" font-weight="600" text-anchor="middle">STAGE 01</text>
+    <text class="pipe-font" x="56" y="42" fill="#F8FAFC" font-size="12" font-weight="700" text-anchor="middle">Git &amp; Code</text>
+    <text class="pipe-font" x="56" y="57" fill="#64748B" font-size="9" text-anchor="middle">Python / Bash</text>
+    <rect x="16" y="66" width="80" height="15" rx="7.5" fill="#062419" stroke="#059669" stroke-width="0.8" />
+    <text class="pipe-font status-badge" x="56" y="77" fill="#34D399" font-size="8.5" font-weight="700" text-anchor="middle">✔ COMMITTED</text>
+  </g>
+
+  <!-- ================= STAGE 2: CONTAINER ================= -->
+  <g transform="translate(165, 42)">
+    <rect width="112" height="88" rx="8" fill="url(#nodeBg)" stroke="#1E293B" stroke-width="1.2" filter="url(#cardGlow)" />
+    <rect x="0" y="0" width="112" height="3" rx="1.5" fill="#38BDF8" />
+    <text class="pipe-font" x="56" y="22" fill="#94A3B8" font-size="9.5" font-weight="600" text-anchor="middle">STAGE 02</text>
+    <text class="pipe-font" x="56" y="42" fill="#F8FAFC" font-size="12" font-weight="700" text-anchor="middle">Docker</text>
+    <text class="pipe-font" x="56" y="57" fill="#64748B" font-size="9" text-anchor="middle">Jenkins CI</text>
+    <rect x="16" y="66" width="80" height="15" rx="7.5" fill="#062419" stroke="#059669" stroke-width="0.8" />
+    <text class="pipe-font status-badge" x="56" y="77" fill="#34D399" font-size="8.5" font-weight="700" text-anchor="middle">✔ BUILT 100%</text>
+  </g>
+
+  <!-- ================= STAGE 3: SECURITY ================= -->
+  <g transform="translate(310, 42)">
+    <rect width="112" height="88" rx="8" fill="url(#nodeBg)" stroke="#1E293B" stroke-width="1.2" filter="url(#cardGlow)" />
+    <rect x="0" y="0" width="112" height="3" rx="1.5" fill="#EF4444" />
+    <text class="pipe-font" x="56" y="22" fill="#94A3B8" font-size="9.5" font-weight="600" text-anchor="middle">STAGE 03</text>
+    <text class="pipe-font" x="56" y="42" fill="#F8FAFC" font-size="12" font-weight="700" text-anchor="middle">DevSecOps</text>
+    <text class="pipe-font" x="56" y="57" fill="#64748B" font-size="9" text-anchor="middle">AZ-500 / SAST</text>
+    <rect x="16" y="66" width="80" height="15" rx="7.5" fill="#062419" stroke="#059669" stroke-width="0.8" />
+    <text class="pipe-font status-badge" x="56" y="77" fill="#34D399" font-size="8.5" font-weight="700" text-anchor="middle">✔ ZERO VULNS</text>
+  </g>
+
+  <!-- ================= STAGE 4: IAC ================= -->
+  <g transform="translate(455, 42)">
+    <rect width="112" height="88" rx="8" fill="url(#nodeBg)" stroke="#1E293B" stroke-width="1.2" filter="url(#cardGlow)" />
+    <rect x="0" y="0" width="112" height="3" rx="1.5" fill="#A855F7" />
+    <text class="pipe-font" x="56" y="22" fill="#94A3B8" font-size="9.5" font-weight="600" text-anchor="middle">STAGE 04</text>
+    <text class="pipe-font" x="56" y="42" fill="#F8FAFC" font-size="12" font-weight="700" text-anchor="middle">Terraform</text>
+    <text class="pipe-font" x="56" y="57" fill="#64748B" font-size="9" text-anchor="middle">Ansible IaC</text>
+    <rect x="16" y="66" width="80" height="15" rx="7.5" fill="#062419" stroke="#059669" stroke-width="0.8" />
+    <text class="pipe-font status-badge" x="56" y="77" fill="#34D399" font-size="8.5" font-weight="700" text-anchor="middle">✔ SYNCED</text>
+  </g>
+
+  <!-- ================= STAGE 5: K8S ================= -->
+  <g transform="translate(600, 42)">
+    <rect width="112" height="88" rx="8" fill="url(#nodeBg)" stroke="#1E293B" stroke-width="1.2" filter="url(#cardGlow)" />
+    <rect x="0" y="0" width="112" height="3" rx="1.5" fill="#38BDF8" />
+    <text class="pipe-font" x="56" y="22" fill="#94A3B8" font-size="9.5" font-weight="600" text-anchor="middle">STAGE 05</text>
+    <text class="pipe-font" x="56" y="42" fill="#F8FAFC" font-size="12" font-weight="700" text-anchor="middle">Kubernetes</text>
+    <text class="pipe-font" x="56" y="57" fill="#64748B" font-size="9" text-anchor="middle">Helm / GitOps</text>
+    <rect x="16" y="66" width="80" height="15" rx="7.5" fill="#062419" stroke="#059669" stroke-width="0.8" />
+    <text class="pipe-font status-badge" x="56" y="77" fill="#34D399" font-size="8.5" font-weight="700" text-anchor="middle">✔ HEALTHY</text>
+  </g>
+
+  <!-- ================= STAGE 6: MULTI-CLOUD ================= -->
+  <g transform="translate(745, 42)">
+    <rect width="112" height="88" rx="8" fill="url(#nodeBg)" stroke="#1E293B" stroke-width="1.2" filter="url(#cardGlow)" />
+    <rect x="0" y="0" width="112" height="3" rx="1.5" fill="#34D399" />
+    <text class="pipe-font" x="56" y="22" fill="#94A3B8" font-size="9.5" font-weight="600" text-anchor="middle">STAGE 06</text>
+    <text class="pipe-font" x="56" y="42" fill="#F8FAFC" font-size="11.5" font-weight="700" text-anchor="middle">Multi-Cloud</text>
+    <text class="pipe-font" x="56" y="57" fill="#38BDF8" font-size="8.5" font-weight="600" text-anchor="middle">AWS•AZURE•GCP</text>
+    <rect x="16" y="66" width="80" height="15" rx="7.5" fill="#062419" stroke="#059669" stroke-width="0.8" />
+    <text class="pipe-font status-badge" x="56" y="77" fill="#34D399" font-size="8.5" font-weight="700" text-anchor="middle">🚀 LIVE PROD</text>
+  </g>
+
+</svg>
