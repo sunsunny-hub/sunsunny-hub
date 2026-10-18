@@ -1,7 +1,7 @@
 <div align="center">
 
   <!-- Dynamic Waving Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:0F172A,50:0284C7,100:38BDF8&height=180&section=header&text=Suraj%20Singh%20Thakur&fontSize=42&fontAlignY=38&fontColor=ffffff&desc=Senior%20DevOps%20%26%20Cloud%20Platform%20Engineer&descAlignY=58&descAlign=50&descSize=18" width="100%" alt="Suraj Singh Thakur Banner" />
+  <img src="./assets/header-wave.svg" width="100%" alt="Suraj Singh Thakur Banner" />
 
   <!-- Dynamic Animated Tech Subline -->
   <a href="https://iam-surajsinghthakur.netlify.app/">
@@ -155,6 +155,6 @@
   <br /><br />
 
   <!-- Aesthetic Waving Footer -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:0F172A,50:0284C7,100:38BDF8&height=100&section=footer" width="100%" alt="Footer Wave" />
+  <img src="./assets/footer-wave.svg" width="100%" alt="Footer Wave" />
 
 </div>
